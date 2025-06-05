@@ -155,12 +155,12 @@ export class CoreTimeUtilsProvider {
     }
 
     /**
-     * Return the current timestamp in a "readable" format: YYYYMMDDHHmmSS.
+     * Return the current timestamp in a "readable" format: YYYYMMDDHHmmss.
      *
      * @returns The readable timestamp.
      */
     readableTimestamp(): string {
-        return moment(Date.now()).format('YYYYMMDDHHmmSS');
+        return moment(Date.now()).format('YYYYMMDDHHmmss');
     }
 
     /**
